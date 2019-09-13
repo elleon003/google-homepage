@@ -1,0 +1,13 @@
+/* GLOBAL STYLES */
+body {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 1.25rem;
+}
