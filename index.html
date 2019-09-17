@@ -59,17 +59,18 @@
       <div class="listing">
         <h3><a href="#">Build Your Own Website | Create Your Own Website, Free.‎</a></h3>
         <a href="#" class="result-url"><span class="ad">Ad</span> www.wix.com/</a>
-        <!--TODO: add small down triangle menu for all result URL's-->
         <p class="result-body">Easy to Use, Online <span class="search-word">Website</span> Builder</p>
         <div class="sub-ads">
-          <h3><a href="#">Get Started</a></h3>
-          <p class="result-body">Create Your Own Website
-            It's Fast & Easy!</p>
-        </div>
-        <div class="sub-ads">
+          <div id="sub-ad-1">
+            <h3><a href="#">Get Started</a></h3>
+            <p class="result-body">Create Your Own Website
+              It's Fast & Easy!</p>
+          </div>
+          <div id="sub-ad-2">
           <h3><a href="#">Free Hosting</a></h3>
           <p class="result-body">100% Free Website Hosting & Design
             Fast & Easy Online Website Builder</p>
+          </div>
         </div>
       </div>
 
@@ -81,17 +82,17 @@
           Presence In No Time. Free 14-day Trial.
           Types: Personal Websites, Commerce Websites, Blog Platform.</p>
         <ul class="footer-ad-links">
-          <li>Pricing and Plan Features</li>
-          <li>Try Our Website Builder</li>
-          <li>Get Started</li>
-          <li>All-in-One Platform</li>
+          <a href="#"><li>Pricing and Plan Features</a></li>
+          <a href="#"><li>Try Our Website Builder</a></li>
+          <a href="#"><li>Get Started</a></li>
+          <a href="#"><li>All-in-One Platform</a></li>
         </ul>
       </div>
     </section>
 
     <!-- FEATURED SNIPPET -->
     <aside class="snippet">
-      <p>How to develop website?</p>
+      <h2>How to develop website?</h2>
       <p><strong>How to Build a website Using WordPress:</strong></p>
       <ol>
         <li>Decide if WordPress is right for you.</li>
@@ -104,13 +105,15 @@
         <li>Publish.</li>
         <small>May 28, 2019</small>
       </ol>
-      <h3>How to Build a Website: the Step-by-Step Guide to Easy Setup ...</h3>
+      <a href="#"><h3>How to Build a Website: the Step-by-Step Guide to Easy Setup ...</h3></a>
       <a href="#" class="result-url">https://www.websitebuilderexpert.com › building-websites</a>
       <p>Search for: <a href="#">How to develop website?</a></p>
     </aside>
     <!-- TODO: add icons -->
-    <small>About Featured Snippets</small>
-    <small>Feedback</small>
+    <div class="snippet-footer">
+      <small>About Featured Snippets</small>
+      <small>Feedback</small>
+    </div>
 
     <!-- SEARCH RESULTS -->
     <section class="result-listings">
@@ -165,7 +168,7 @@
 
 
       <!-- PEOPLE ALSO ASK SNIPPET -->
-      <aside class="snippet">
+      <aside class="snippet snippet-questions">
         <h2>People also ask</h2>
         <ul>
           <li>How can I create my own webpage?</li>
@@ -173,7 +176,9 @@
           <li>How do you create a website for free?</li>
         </ul>
       </aside>
-      <small>Feedback</small>
+      <div class="snippet-footer">
+        <small>Feedback</small>
+      </div>
 
       <div class="listing">
         <h3><a href="#">How to Build a Website: the Step-by-Step Guide to Easy Setup ...</a></h3>
@@ -235,10 +240,19 @@
       </div>
 
       <!-- RELATED SEARCH SNIPPET -->
-      <aside class="snippet">
-        <h5>Related Search</h5>
-        <p>Best software for web design</p>
+      <aside class="snippet related-search">
+        <div class="related-search-header">
+          <p class="result-body">Related Search</p>
+          <p>Best software for web design</p>
+        </div>
         <!-- TODO: add images right above each listing -->
+        <ul>
+          <li><img src="img/mobirise.png"></li>
+          <li><img src="img/adobe-dream-weaver.png"></li>
+          <li><img src="img/google-web-designer.jpeg"></li>
+          <li><img src="img/webflow.png"></li>
+          <li><img src="img/webnode.png"></li>
+        </ul>
         <ul>
           <li>Mobirise</li>
           <li>Adobe Dreamwe...</li>
@@ -251,24 +265,26 @@
 
     <!-- FOOTER RELATED RESULTS -->
     <section class="bottom-listing">
-      <h4>Searches related to build this webpage</h4>
+      <h3>Searches related to build this webpage</h3>
       <ul>
-        <li><a href="#">make a website a day</a></li>
-        <li><a href="#">how to build a website pdf</a></li>
+        <li><a href="#">make a <span class="search-word"> website</span> a day</a></li>
+        <li><a href="#">how to <span class="search-word"> build a website</span> pdf</a></li>
         <li><a href="#">building 100 websites</a></li>
       </ul>
     </section>
-    <img src="img/goooooole-logo.png" alt="Long Google logo">
+    <div class="more-results">
+      <img src="img/goooooole-logo.png" alt="Long Google logo">
+    </div>
     <!-- TODO: ADD 1 - 10 & NEXT LINK WITH ARROW -->
   </main>
 
   <footer>
-    <p><strong>43207, Columbus, OH</strong> - From your internet address - Use precise location - Learn more</p>
+    <p><strong>43207, Columbus, OH</strong> - <span class="result-body">From your internet address - Use precise location - Learn more</span></p>
     <ul class="footer-links">
-      <li><a href="#">Help</a></li>
-      <li><a href="#">Send feedback</a></li>
-      <li><a href="#">Privacy</a></li>
-      <li><a href="#">Terms</a></li>
+      <li><a href="#" class="result-body">Help</a></li>
+      <li><a href="#" class="result-body">Send feedback</a></li>
+      <li><a href="#" class="result-body">Privacy</a></li>
+      <li><a href="#" class="result-body">Terms</a></li>
     </ul>
   </footer>
 </body>
