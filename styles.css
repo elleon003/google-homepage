@@ -29,20 +29,25 @@ small {
   font-weight: bold;
 }
 
-.row {
+.row,
+nav {
   display: flex;
 }
 
-/* HEADER SECTION */
+hr {
+  margin-top: 0;
+  background-color: #6A6A6A;
+}
+
+/********* HEADER SECTION *********/
 
 header {
-  margin: 20px 20px 20px 12px;
+  margin: 20px 20px 0 12px;
 }
 
 #logo {
   padding-top: 8px;
 }
-
 
 #search {
   width: 640px;
@@ -63,7 +68,8 @@ header {
   color: #3F3F2F;
   font-size: 17px;
   padding-left: 25px;
-  opacity: 1; /* Firefox */
+  opacity: 1;
+  /* Firefox */
 }
 
 :-ms-input-placeholder {
@@ -98,4 +104,50 @@ button {
   height: 35px;
   font-size: 15px;
   margin-top: 5px;
+}
+
+.header-menu,
+.settings-menu {
+  display: flex;
+}
+
+.header-menu {
+  padding: 25px 0 0 135px;
+}
+
+.header-menu a {
+  padding: 0 16px;
+  color: #6A6A6A;
+  font-size: 13px;
+}
+
+#all-link:first-child {
+  color: #1A73E8;
+}
+
+.header-menu a:hover,
+.settings-menu a:hover {
+  color: #1A73E8;
+  cursor: pointer;
+}
+
+#all-link {
+  border-bottom: 3px solid #1A73E8;
+}
+
+.menu-icons {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+  margin-right: 5px;
+}
+
+.settings-menu {
+  padding: 25px 0 15px 35px;
+}
+
+.settings-menu a {
+  color: #6A6A6A;
+  font-size: 13px;
 }
